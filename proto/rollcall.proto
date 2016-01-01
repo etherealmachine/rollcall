@@ -67,5 +67,5 @@ message Transaction {
 
 service MarketService {
 	rpc PutOrder(PutOrderRequest) returns (PutOrderReply) {}
-  rpc Transactions(TransactionsRequest) returns (stream Transaction) {}
+	rpc Transactions(TransactionsRequest) returns (stream Transaction) {}
 }
